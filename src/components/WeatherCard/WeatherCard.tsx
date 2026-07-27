@@ -1,4 +1,4 @@
-import "../../styles/WeatherCard.css";
+/* "../../styles/WeatherCard.css";
 import type { Weather } from "../../types/weather";
 
 type WeatherCardProps = {
@@ -31,4 +31,4 @@ function WeatherCard({ weather }: WeatherCardProps) {
   );
 }
 
-export default WeatherCard;
+export default WeatherCard; */
