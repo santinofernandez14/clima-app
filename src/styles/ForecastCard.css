@@ -1,0 +1,53 @@
+.forecast-card{
+
+    min-width:120px;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+}
+
+.forecast-card{
+
+    cursor:pointer;
+
+}
+
+.forecast-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.forecast-icon{
+
+    font-size:2rem;
+
+    margin:15px 0;
+
+}
+
+.forecast-temp{
+
+    font-weight:bold;
+
+}
+
+.forecast-card.active{
+
+    background:#0984e3;
+
+    color:white;
+
+    transform:scale(1.05);
+
+}
